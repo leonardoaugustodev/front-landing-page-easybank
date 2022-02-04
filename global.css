@@ -1,0 +1,30 @@
+:root {
+  --desktop-maxWidth: 1440px;
+  --mobile-maxWidth: 375px;
+
+  --color-darkBlue: rgba(45, 49, 77);
+  --color-limeGreen: hsl(136, 65%, 51%);
+  --color-brightCyan: hsl(192, 70%, 51%);
+  --color-grayishBlue: hsl(233, 8%, 62%);
+  --color-lightGrayishBlue: hsl(220, 16%, 96%);
+  --color-veryLightGray: hsl(0, 0%, 98%);
+  --color-white: hsl(0, 0%, 100%);
+
+  --desktop-fontSize: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Public Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
